@@ -1,0 +1,407 @@
+date,race,age,sex
+2022-01-05,Black or African American,14,M
+2022-01-14,Black or African American,18,F
+2022-01-16,Other,24,F
+2022-01-18,White,23,F
+2022-01-21,Black or African American,14,M
+2022-01-21,Other Asian,16,M
+2022-01-23,Black or African American,12,M
+2022-01-23,Black or African American,21,M
+2022-01-23,"Black or African American, Other Asian",20,F
+2022-01-25,Black or African American,18,F
+2022-01-27,White,21,F
+2022-01-29,White,21,F
+2022-01-30,Black or African American,19,F
+2022-01-31,Black or African American,12,F
+2022-02-07,Black or African American,13,F
+2022-02-10,Unknown,14,M
+2022-02-11,White,20,F
+2022-02-15,Black or African American,12,F
+2022-02-17,Other,18,F
+2022-02-19,Black or African American,17,F
+2022-02-21,"Black or African American, White",18,F
+2022-02-24,Black or African American,22,M
+2022-02-25,Black or African American,14,F
+2022-02-27,Unknown,18,F
+2022-02-27,White,16,F
+2022-03-01,White,24,F
+2022-03-04,Black or African American,13,F
+2022-03-04,Black or African American,14,F
+2022-03-05,Black or African American,22,F
+2022-03-06,Other,14,F
+2022-03-08,Black or African American,19,F
+2022-03-08,Black or African American,19,F
+2022-03-11,White,20,F
+2022-03-13,Black or African American,12,F
+2022-03-16,Black or African American,11,M
+2022-03-18,Black or African American,10,M
+2022-03-21,Black or African American,23,F
+2022-03-26,Black or African American,22,F
+2022-03-28,White,16,M
+2022-03-29,Black or African American,17,F
+2022-04-03,Black or African American,24,F
+2022-04-03,White,20,M
+2022-04-06,White,16,F
+2022-04-07,Black or African American,22,F
+2022-04-12,Other,14,F
+2022-04-15,Other,12,M
+2022-04-16,Other,13,F
+2022-04-17,Black or African American,14,F
+2022-04-17,Other,22,F
+2022-04-21,Black or African American,16,F
+2022-04-22,Black or African American,16,M
+2022-04-22,Black or African American,15,M
+2022-04-24,Other,15,F
+2022-04-28,White,19,M
+2022-05-04,Black or African American,18,F
+2022-05-05,Black or African American,24,F
+2022-05-05,White,19,F
+2022-05-05,White,19,F
+2022-05-08,Other,20,F
+2022-05-10,Black or African American,16,M
+2022-05-11,Black or African American,17,F
+2022-05-13,Black or African American,21,M
+2022-05-16,Black or African American,14,M
+2022-05-17,Other,19,F
+2022-05-18,White,16,F
+2022-05-20,Black or African American,20,M
+2022-05-22,Black or African American,19,F
+2022-05-23,Black or African American,12,F
+2022-05-23,Black or African American,20,M
+2022-05-23,White,21,F
+2022-05-23,Black or African American,20,F
+2022-05-24,Black or African American,12,F
+2022-05-24,Black or African American,16,M
+2022-05-25,"Black or African American, Unknown",21,M
+2022-05-25,Black or African American,14,F
+2022-05-27,White,15,F
+2022-05-28,Black or African American,20,F
+2022-05-30,Black or African American,20,F
+2022-05-30,Black or African American,23,M
+2022-05-30,Unknown,16,F
+2022-05-30,White,12,F
+2022-05-31,Black or African American,19,M
+2022-06-03,Black or African American,22,M
+2022-06-05,Unknown,21,F
+2022-06-06,"Black or African American, Other",21,M
+2022-06-09,Black or African American,20,F
+2022-06-11,"Black or African American, White",20,F
+2022-06-11,White,24,F
+2022-06-12,Black or African American,14,F
+2022-06-14,Black or African American,10,M
+2022-06-18,Black or African American,10,M
+2022-06-19,Black or African American,24,F
+2022-06-19,Black or African American,21,F
+2022-06-20,Black or African American,22,F
+2022-06-21,White,16,F
+2022-06-26,Black or African American,11,F
+2022-06-26,White,18,F
+2022-06-29,"Black or African American, Unknown",15,F
+2022-07-03,White,22,F
+2022-07-07,Other,14,F
+2022-07-09,Other,18,M
+2022-07-10,Black or African American,24,F
+2022-07-11,Black or African American,23,M
+2022-07-11,Black or African American,17,F
+2022-07-14,Black or African American,24,F
+2022-07-21,White,22,F
+2022-07-22,Black or African American,23,M
+2022-07-23,Black or African American,21,M
+2022-07-25,Black or African American,22,F
+2022-07-25,Black or African American,17,M
+2022-07-26,Black or African American,19,M
+2022-07-28,Other,16,M
+2022-07-28,White,19,F
+2022-07-28,White,20,F
+2022-07-30,"Other, White",13,M
+2022-07-31,Black or African American,23,M
+2022-07-31,Other,18,M
+2022-08-07,Black or African American,10,M
+2022-08-11,Black or African American,12,F
+2022-08-19,White,20,M
+2022-08-19,Black or African American,22,M
+2022-08-25,Black or African American,16,M
+2022-08-26,Black or African American,21,F
+2022-08-27,Black or African American,21,F
+2022-08-30,White,24,M
+2022-09-01,Black or African American,18,F
+2022-09-04,Other,14,M
+2022-09-04,White,22,F
+2022-09-07,Black or African American,20,F
+2022-09-07,Black or African American,19,F
+2022-09-09,Black or African American,10,M
+2022-09-11,Black or African American,21,M
+2022-09-15,Black or African American,12,F
+2022-09-16,Black or African American,14,M
+2022-09-19,Black or African American,24,M
+2022-09-22,White,21,F
+2022-09-23,White,18,F
+2022-09-26,Black or African American,15,F
+2022-09-28,Black or African American,22,M
+2022-09-28,White,16,F
+2022-09-28,Other,21,F
+2022-09-29,Black or African American,16,F
+2022-10-01,Black or African American,19,F
+2022-10-01,Black or African American,17,F
+2022-10-02,Black or African American,24,F
+2022-10-02,White,23,F
+2022-10-04,Other,15,F
+2022-10-08,Black or African American,18,F
+2022-10-09,Black or African American,20,F
+2022-10-12,Other,16,F
+2022-10-14,Other,21,F
+2022-10-14,White,20,F
+2022-10-16,"Black or African American, Unknown",18,F
+2022-10-16,Other,21,F
+2022-10-18,Other,12,M
+2022-10-22,Other,23,M
+2022-10-23,Black or African American,23,M
+2022-10-25,Black or African American,11,M
+2022-10-25,Black or African American,20,M
+2022-10-27,Black or African American,13,M
+2022-10-27,Black or African American,21,F
+2022-10-30,Unknown,19,F
+2022-10-31,White,20,F
+2022-11-01,Black or African American,22,F
+2022-11-02,Black or African American,16,F
+2022-11-04,"Black or African American, White",12,M
+2022-11-04,White,12,F
+2022-11-08,Black or African American,10,F
+2022-11-09,"Other, Other Asian",10,F
+2022-11-12,White,17,F
+2022-11-13,Black or African American,23,F
+2022-11-17,Other,16,F
+2022-11-18,Black or African American,11,M
+2022-11-26,Black or African American,20,M
+2022-11-28,Black or African American,20,M
+2022-11-30,Black or African American,16,F
+2022-12-02,"Other, Unknown",19,M
+2022-12-03,Other,19,M
+2022-12-04,Black or African American,15,F
+2022-12-08,Black or African American,11,F
+2022-12-08,Black or African American,20,M
+2022-12-09,Black or African American,12,F
+2022-12-13,Black or African American,17,F
+2022-12-16,"Other, Other Asian",12,M
+2022-12-16,Black or African American,21,M
+2022-12-16,Black or African American,12,M
+2022-12-17,White,24,M
+2022-12-18,Black or African American,21,M
+2022-12-20,Other,24,F
+2022-12-30,Black or African American,18,F
+2023-01-01,White,21,F
+2023-01-03,Black or African American,10,F
+2023-01-03,Other,13,F
+2023-01-05,Black or African American,17,F
+2023-01-13,Black or African American,13,M
+2023-01-15,Black or African American,24,M
+2023-01-18,Black or African American,13,M
+2023-01-20,Black or African American,12,M
+2023-01-20,Black or African American,23,F
+2023-01-22,White,22,F
+2023-01-23,Black or African American,15,F
+2023-01-24,Black or African American,22,F
+2023-01-29,Black or African American,21,F
+2023-02-01,White,16,F
+2023-02-04,White,23,F
+2023-02-05,Other,24,M
+2023-02-10,Black or African American,15,M
+2023-02-10,Other,11,F
+2023-02-10,Black or African American,15,M
+2023-02-11,Other,11,F
+2023-02-12,White,22,F
+2023-02-14,Black or African American,23,F
+2023-02-14,Other,13,F
+2023-02-20,Black or African American,24,F
+2023-02-20,Black or African American,18,F
+2023-02-22,Black or African American,10,F
+2023-02-24,Black or African American,15,M
+2023-02-26,Black or African American,16,M
+2023-02-26,White,18,F
+2023-02-27,Other,13,F
+2023-02-27,Black or African American,17,M
+2023-03-02,Black or African American,22,F
+2023-03-02,Black or African American,19,M
+2023-03-03,Black or African American,15,F
+2023-03-03,Black or African American,12,M
+2023-03-12,White,19,F
+2023-03-14,Other,18,M
+2023-03-16,Black or African American,21,M
+2023-03-19,Other,24,F
+2023-03-19,Black or African American,18,F
+2023-03-23,White,15,M
+2023-03-26,Black or African American,20,F
+2023-03-31,Black or African American,18,M
+2023-03-31,Black or African American,23,M
+2023-04-01,"Black or African American, White",20,F
+2023-04-05,"Other, White",14,M
+2023-04-05,Black or African American,15,F
+2023-04-06,Other,13,F
+2023-04-07,Black or African American,17,F
+2023-04-08,White,21,M
+2023-04-10,Black or African American,18,F
+2023-04-10,White,21,F
+2023-04-10,Black or African American,19,F
+2023-04-11,Black or African American,23,M
+2023-04-14,Black or African American,23,M
+2023-04-15,Black or African American,16,F
+2023-04-17,White,16,M
+2023-04-19,Black or African American,15,M
+2023-04-20,Black or African American,12,M
+2023-04-21,White,17,M
+2023-04-21,Black or African American,23,M
+2023-04-25,Black or African American,14,F
+2023-04-29,Black or African American,15,F
+2023-04-29,Black or African American,22,F
+2023-04-30,Black or African American,12,F
+2023-05-08,Black or African American,13,F
+2023-05-09,Black or African American,13,M
+2023-05-10,Black or African American,16,F
+2023-05-11,Black or African American,13,M
+2023-05-12,Black or African American,17,F
+2023-05-13,Other,23,M
+2023-05-14,Black or African American,24,F
+2023-05-16,Unknown,23,M
+2023-05-16,White,12,M
+2023-05-17,Other,12,M
+2023-05-22,Black or African American,13,F
+2023-05-22,Black or African American,12,F
+2023-05-24,Black or African American,20,F
+2023-05-28,Black or African American,18,F
+2023-05-29,White,21,F
+2023-06-01,Black or African American,10,F
+2023-06-01,Black or African American,12,F
+2023-06-05,Black or African American,13,M
+2023-06-06,Black or African American,14,M
+2023-06-07,Black or African American,18,F
+2023-06-08,Black or African American,11,M
+2023-06-13,Black or African American,20,F
+2023-06-13,Black or African American,21,F
+2023-06-16,Black or African American,17,M
+2023-06-17,Black or African American,23,F
+2023-06-18,Other,16,F
+2023-06-19,Black or African American,23,F
+2023-06-19,Black or African American,24,F
+2023-06-21,Other,15,M
+2023-06-24,Black or African American,19,F
+2023-06-24,Black or African American,16,M
+2023-06-24,White,18,F
+2023-06-24,Black or African American,16,M
+2023-06-25,Black or African American,18,F
+2023-06-29,Black or African American,22,F
+2023-07-02,Black or African American,23,F
+2023-07-07,Black or African American,15,F
+2023-07-08,Black or African American,18,F
+2023-07-09,Black or African American,17,F
+2023-07-10,White,17,F
+2023-07-11,Black or African American,20,M
+2023-07-12,Black or African American,20,M
+2023-07-13,"Black or African American, White",13,F
+2023-07-16,Black or African American,21,M
+2023-07-20,"Black or African American, Unknown",24,F
+2023-07-21,Black or African American,18,F
+2023-07-23,Other,18,F
+2023-07-25,Black or African American,20,F
+2023-07-26,Other,21,F
+2023-07-27,White,24,F
+2023-07-28,Other,12,F
+2023-07-29,Black or African American,20,F
+2023-07-29,Black or African American,16,M
+2023-07-30,"Black or African American, Unknown",24,F
+2023-07-30,Black or African American,24,M
+2023-08-01,"Black or African American, Unknown",24,F
+2023-08-03,Black or African American,12,F
+2023-08-04,White,21,F
+2023-08-04,Black or African American,21,F
+2023-08-05,Other,18,F
+2023-08-05,Black or African American,24,F
+2023-08-06,"Other, Unknown, White",14,F
+2023-08-09,Black or African American,12,F
+2023-08-11,Black or African American,20,M
+2023-08-11,Black or African American,20,F
+2023-08-11,White,17,M
+2023-08-13,"Black or African American, White",21,F
+2023-08-14,Other,13,F
+2023-08-15,Black or African American,16,F
+2023-08-16,White,18,F
+2023-08-16,Black or African American,22,M
+2023-08-16,Black or African American,24,F
+2023-08-17,"Black or African American, Unknown",24,F
+2023-08-19,Black or African American,21,F
+2023-08-22,Black or African American,23,F
+2023-08-24,Black or African American,16,F
+2023-08-28,Black or African American,21,F
+2023-08-29,Black or African American,14,F
+2023-09-02,Black or African American,24,M
+2023-09-02,White,21,F
+2023-09-06,Black or African American,22,M
+2023-09-10,Other,21,M
+2023-09-14,Black or African American,10,M
+2023-09-14,White,21,F
+2023-09-15,White,18,F
+2023-09-17,Black or African American,20,M
+2023-09-17,Black or African American,22,M
+2023-09-18,Black or African American,15,M
+2023-09-18,Black or African American,24,F
+2023-09-18,Black or African American,16,M
+2023-09-18,Black or African American,18,F
+2023-09-18,Black or African American,16,M
+2023-09-24,Black or African American,19,F
+2023-09-26,"Black or African American, White",21,F
+2023-09-27,Black or African American,20,F
+2023-09-28,White,21,F
+2023-10-03,Black or African American,15,F
+2023-10-03,Black or African American,11,M
+2023-10-04,Black or African American,12,F
+2023-10-06,Black or African American,24,F
+2023-10-08,"Black or African American, White",21,F
+2023-10-09,Black or African American,15,F
+2023-10-10,Other,21,F
+2023-10-16,Other,12,F
+2023-10-16,Black or African American,15,M
+2023-10-16,Black or African American,15,M
+2023-10-18,Black or African American,20,F
+2023-10-19,Black or African American,24,F
+2023-10-19,Black or African American,18,M
+2023-10-20,Other,24,M
+2023-10-23,Black or African American,24,M
+2023-10-24,Other,13,F
+2023-10-26,Black or African American,15,M
+2023-10-26,Other,11,F
+2023-10-28,"Black or African American, White",21,F
+2023-11-01,Black or African American,15,M
+2023-11-01,N/A-OUTREACH USE ONLY,20,F
+2023-11-01,Black or African American,14,F
+2023-11-03,"Black or African American, Other",11,F
+2023-11-03,Black or African American,15,F
+2023-11-04,Other,13,M
+2023-11-08,Black or African American,19,F
+2023-11-11,White,13,M
+2023-11-11,White,23,F
+2023-11-13,Black or African American,23,F
+2023-11-16,White,15,M
+2023-11-17,Black or African American,14,F
+2023-11-18,Black or African American,23,F
+2023-11-20,Black or African American,21,F
+2023-11-23,Black or African American,24,F
+2023-11-24,Black or African American,13,F
+2023-11-24,Other,22,F
+2023-11-28,Black or African American,18,F
+2023-11-28,White,21,F
+2023-11-28,Black or African American,11,F
+2023-12-02,White,19,F
+2023-12-02,Other,19,F
+2023-12-04,Other,12,F
+2023-12-04,Black or African American,21,M
+2023-12-05,Black or African American,11,F
+2023-12-06,Unknown,17,F
+2023-12-10,Other,23,M
+2023-12-11,Black or African American,16,F
+2023-12-11,Black or African American,23,F
+2023-12-12,Black or African American,16,F
+2023-12-16,Black or African American,12,F
+2023-12-18,Unknown,16,F
+2023-12-23,Black or African American,17,M
+2023-12-26,Black or African American,22,F
+2023-12-27,White,21,F
+2023-12-28,Black or African American,13,F
