@@ -12,6 +12,14 @@ small_set<-all_data %>%
     ncrural_Desc = as.factor(ncrural_Desc),
     metro_Desc = as.factor(metro_Desc))
 
+continental<-all_data %>%
+  filter(state != "Hawaii") %>% 
+  filter(state != "Alaska") %>% filter(state != "United States Virgin Islands") %>% 
+  filter(state != "Commonwealth of the Northern Mariana Islands") %>% 
+  filter(state !=  "Guam") %>% 
+  filter(state !=  "American Samoa") %>% 
+  filter(state !=  "Puerto Rico")
+
 pdf("anova_project_prelim.pdf")
 rxd_anova<-aov(pop_density ~ ncrural_Desc, data=small_set)
 summary(rxd_anova)
@@ -108,4 +116,14 @@ ggplot(mxp_summary, aes(x = metro_Desc, y = avg)) +
   ) +
   theme_minimal() +
   theme(legend.position = "none")
+
+
+ggplot(continental)+
+  geom_sf(aes(fill=metro_class))+
+  theme_void()
+
+ggplot(continental)+
+  geom_sf(aes(fill=ncrural))+
+  theme_void()
+
 dev.off()
