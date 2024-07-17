@@ -28,7 +28,7 @@ combined_gpt <- gpt %>%
   distinct()
 
 # gpt-Create an edge list
-edges_gpt <- data %>%
+edges_gpt <- gpt %>%
   group_by(fac1, fac2) %>%
   summarise(int = n(), .groups = 'drop')
 
@@ -86,7 +86,7 @@ plot(g_gpt,
 #trying with ggraph
 V(g_gpt)$degree<-degree(g_gpt, mode="all")
 
-ggraph_gpt_plot<-ggraph(g_gpt, layout='fr')+
+ggraph(g_gpt, layout='fr')+
   geom_edge_link(aes(width=int))+
   geom_node_point(aes(size=degree*2, shape=as.factor(college), color=as.factor(community)))+
   geom_node_text(aes(label=name), repel=T)+
