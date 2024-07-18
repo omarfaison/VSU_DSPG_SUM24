@@ -98,3 +98,70 @@ ggplot(hcm_long, aes(x = cluster, y = value, fill = variable)) +
        y = "Standardized Value") +
   theme_minimal()
 
+###K-MEANS
+#calculate number of clusters 
+#silhouette
+  fviz_nbclust(scaled_data, kmeans, method="silhouette")
+
+#create kmeans cluster object with cluster assignment
+set.seed(15)
+km2<-kmeans(scaled_data, 2, nstart=20)
+
+#view fit
+##silhouette
+k_sil_2<-silhouette(km2$cluster, dis)
+fviz_silhouette(k_sil_2)
+
+##view distribution
+fviz_cluster(km2, data = scaled_data,
+             ellipse.type = "euclid",
+             geom="point",
+             ggtheme = theme())
+
+#assign clusters to dataset
+nomd$k_cluster<-as.factor(km2$cluster)
+
+#view cluster means
+k_clustermeans<-nomd %>%
+  st_drop_geometry()%>%
+  group_by(k_cluster) %>%
+  summarize(
+    pct_poverty = mean(pct_poverty),
+    pct_no_bach = mean(pct_no_bach),
+    pct_not_in_labor_force = mean(pct_not_in_labor_force),
+    DEPRESSION = mean(DEPRESSION),
+    SLEEP=mean(SLEEP),
+    PHLTH = mean(PHLTH))
+
+k_clustermeans
+
+#visualize differences between clusters
+km_std<-as.data.frame(scale(select(k_clustermeans, -k_cluster)))
+km_std$cluster = k_clustermeans$k_cluster
+
+km_long <- km_std %>%
+  gather(key = "variable", value = "value", -cluster)
+
+ggplot(km_long, aes(x = variable, y = value, fill = cluster)) +
+  geom_col(position = "dodge") +
+  labs(title = "Standardized Differences Between Clusters",
+       x = "Variable",
+       y = "Standardized Value") +
+  theme_minimal()
+
+ggplot(km_long, aes(x = cluster, y = value, fill = variable)) +
+  geom_col(position = "dodge") +
+  labs(title = "Standardized Differences Between Clusters",
+       x = "cluster",
+       y = "Standardized Value") +
+  theme_minimal()
+
+#compare maps
+tmap_mode("view")
+tm_shape(nomd)+
+  tm_polygons("h_cluster")
+
+tm_shape(nomd)+
+  tm_polygons("k_cluster")
+
+
